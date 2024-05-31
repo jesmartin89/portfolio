@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff Martin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <section id="nav">
+            <nav class="navbar-expand-lg  navbar">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/head-shot.jpg" alt="headshot" class="headshot" height="30px"/> Jeff Martin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#title">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/contact.html">Contact Info</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </section>
+        <section id="title">
+          <div class="px-4 py-5 text-center background">
+            <img class="d-block mx-auto mb-4 headshot" src="./images/head_shot.jpg" alt="headshot" height="300px">
+            <h1 class="display-5 fw-bold text-body-emphasis">Jeff Martin</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+            <div class="container mt-5"> <!--encloses the csrousel inside the container so it doesnt go the whole length of website-->
+                <div id="carouselExampleIndicators" class="carousel slide border border-dark rounded carousel-dark">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner px-5 py-5">
+                    <div class="carousel-item active">
+                      <img src="./images/animal-exhibit.png" class="d-block w-100" alt="couple" height="800">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/jeffMovieRanking.png" class="d-block w-100" alt="dog" height="800">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/jeffsBirthdayInvite.png" class="d-block w-100" alt="family" height="800">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                </div>
+        </section>
+        <section id="info">
+            <div class="container marketing text-center mt-5 mb-5">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/boardgame.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <h2 class="fw-normal">Board Games</h2>
+                    <p>In my free time I like to get with friends and neighbors to play board games such as Catan or Cards Against Humanity.</p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/gardening.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <h2 class="fw-normal">Gardening</h2>
+                    <p>I also have a passion for gardening and growing my own sustainable food system.  </p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./images/motorcycle.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <h2 class="fw-normal">Motorcycles</h2>
+                    <p>And on those warm days, I enjoy riding my motorcycle on the open road and feeling the wind as I ride.</p>
+                  </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            
+              </div>
+        </section>
+        <section id="contact" class="background">
+            <footer class="py-3 ">
+                <ul class="nav justify-content-center pb-3 mb-3 text">
+                  <li class="nav-item"><a href="#nav" class="nav-link px-2 text-body-secondary">Home</a></li>
+                  <li class="nav-item"><a href="#title" class="nav-link px-2 text-body-secondary">About Me</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+                  <li class="nav-item"><a href="./public/resume.html" class="nav-link px-2 text-body-secondary">Resume</a></li>
+                  <li class="nav-item"><a href="./public/contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+                </ul>
+                <p class="text-center text-body-secondary"><small>Copyright © 2024 Jeffery Martin. All Rights Reserved.</small></p>
+              </footer>
+        </section>
+  
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>      
+    </body>
+
+</html>
